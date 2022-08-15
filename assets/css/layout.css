@@ -3,7 +3,29 @@ body {
     color: white;
 }
 
-.container h1, label, a {
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container h1, a {
+    width: 99%;
     text-decoration: none;
-    color: white;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: min-content;
+}
+
+.style-input{
+    margin-bottom: 10px;
+    flex-direction: column;
+    width: 200px;
+}
+form button {
+    margin-bottom: 50px;
 }
